@@ -14,8 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-
+    @IBAction func keyPressed(_ sender: Any) {
+        print("Working")
+    }
     
-
 }
 
